@@ -1,0 +1,6 @@
+这是一个tftp客户端程序，基于UDP协议
+
+Usage: client [serverip] [port] [filename]
+        eg:client 172.18.101.121 69 test.txt
+
+TFTP协议参考：https://blog.csdn.net/weixin_38239856/article/details/119855977?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165449825716782425119032%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=165449825716782425119032&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-119855977-null-null.142^v11^pc_search_result_control_group,157^v13^new_style1&utm_term=tftp%E5%8D%8F%E8%AE%AE&spm=1018.2226.3001.4187
