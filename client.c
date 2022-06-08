@@ -189,6 +189,12 @@ int main(int argc, char **argv)
             break;
         case OPCODE_ERROR   : 
             printf("OPCODE_ERROR\r\n");
+            pkt = (uint8_t *)tftp_inf.rx_pkg;
+            s = (uint16_t *)pkt;
+            int error_code = ntohs(*(s + 1));
+            pkt = (uint8_t *)tftp_inf.rx_pkg + 4;
+            printf("error_code:%d msg:%s\r\n", error_code, pkt);
+            goto exit;
             break;
         default:
             break;
