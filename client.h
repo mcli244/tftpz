@@ -22,12 +22,12 @@ struct tftp_info
 
 
 /* opcode */
-#define OPCODE_RRQ     (short)1
-#define OPCODE_WRQ     (short)2
-#define OPCODE_DATA    (short)3
-#define OPCODE_ACK     (short)4
-#define OPCODE_ERROR   (short)5
-#define OPCODE_OACK    (short)6
+#define OPCODE_RRQ     1
+#define OPCODE_WRQ     2
+#define OPCODE_DATA    3
+#define OPCODE_ACK     4
+#define OPCODE_ERROR   5
+#define OPCODE_OACK    6
 
 /* mode */
 #define MODE_NETASCII   "netascii"
